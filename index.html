@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy - MoneyVault: Finance & FIRE</title>
+  <title>Privacy Policy & Terms of Service - MoneyVault: Finance & FIRE</title>
   <style>
     :root {
       --bg: #0F172A;
@@ -12,6 +12,7 @@
       --text-muted: #94A3B8;
       --primary: #10B981;
       --accent: #38BDF8;
+      --amber: #F59E0B;
       --border: #334155;
     }
     * {
@@ -27,7 +28,7 @@
       padding: 24px 16px;
     }
     .container {
-      max-width: 820px;
+      max-width: 840px;
       margin: 0 auto;
       background: var(--card-bg);
       padding: 36px 32px;
@@ -35,36 +36,72 @@
       border: 1px solid var(--border);
       box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     }
+    .badge {
+      display: inline-block;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--primary);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
     h1 {
       font-size: 28px;
       color: #FFFFFF;
       margin-bottom: 8px;
     }
-    .subtitle {
-      color: var(--primary);
-      font-weight: 600;
+    .nav-bar {
+      display: flex;
+      gap: 12px;
+      margin: 20px 0 24px 0;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-btn {
+      color: var(--text);
+      text-decoration: none;
       font-size: 14px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-bottom: 12px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      transition: all 0.2s ease;
+    }
+    .nav-btn:hover {
+      background: rgba(16, 185, 129, 0.2);
+      border-color: var(--primary);
+      color: #FFFFFF;
+    }
+    .nav-btn.active {
+      background: var(--primary);
+      color: #000000;
+      border-color: var(--primary);
     }
     .last-updated {
       color: var(--text-muted);
       font-size: 13px;
-      margin-bottom: 28px;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 16px;
+      margin-bottom: 24px;
     }
     h2 {
-      font-size: 20px;
-      color: var(--accent);
-      margin-top: 28px;
-      margin-bottom: 12px;
+      font-size: 22px;
+      color: #FFFFFF;
+      margin-top: 36px;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
     h3 {
       font-size: 16px;
-      color: #FFFFFF;
-      margin-top: 18px;
+      color: var(--accent);
+      margin-top: 20px;
       margin-bottom: 8px;
     }
     p, li {
@@ -82,12 +119,20 @@
     strong {
       color: #FFFFFF;
     }
+    .alert-box {
+      background: rgba(245, 158, 11, 0.1);
+      border-left: 4px solid var(--amber);
+      padding: 14px 18px;
+      border-radius: 8px;
+      margin: 18px 0;
+      font-size: 14px;
+    }
     .highlight-box {
       background: rgba(16, 185, 129, 0.1);
       border-left: 4px solid var(--primary);
       padding: 14px 18px;
       border-radius: 8px;
-      margin: 20px 0;
+      margin: 18px 0;
       font-size: 14.5px;
     }
     a {
@@ -98,7 +143,7 @@
       color: #34D399;
     }
     footer {
-      margin-top: 36px;
+      margin-top: 40px;
       padding-top: 20px;
       border-top: 1px solid var(--border);
       font-size: 13px;
@@ -109,99 +154,130 @@
 </head>
 <body>
   <div class="container">
-    <div class="subtitle">Official Privacy Document</div>
-    <h1>Privacy Policy for MoneyVault: Finance & FIRE</h1>
-    <div class="last-updated">Last Updated: October 7, 2026 | Effective Date: October 7, 2026</div>
+    <div class="badge">Legal & Privacy Center</div>
+    <h1>MoneyVault: Finance & FIRE</h1>
+    <div class="last-updated">Effective Date & Last Updated: October 7, 2026</div>
 
-    <div class="highlight-box">
-      <strong>Core Privacy Commitment:</strong> <strong>MoneyVault: Finance & FIRE</strong> is built on an offline-first architecture. Your personal financial transactions, account balances, and savings vault data are stored locally on your device. We do not require account registration, and we do not store or transmit your financial logs to our servers.
+    <div class="nav-bar">
+      <a href="#privacy" class="nav-btn active">1. Privacy Policy</a>
+      <a href="#terms" class="nav-btn">2. Terms of Service & Disclaimer</a>
+      <a href="#support" class="nav-btn">3. Support & Contact</a>
     </div>
 
-    <h2>1. Introduction</h2>
-    <p>
-      This Privacy Policy describes how <strong>MoneyVault: Finance & FIRE</strong> ("we", "our", or "the App") handles information when you use our mobile application. We respect your privacy and are committed to protecting it through transparent data handling practices in accordance with Google Play Store Developer Policies, the General Data Protection Regulation (GDPR), and applicable privacy laws.
-    </p>
+    <!-- ==================== SECTION 1: PRIVACY POLICY ==================== -->
+    <section id="privacy">
+      <h2>🛡️ Part I: Privacy Policy</h2>
 
-    <h2>2. Data We Do NOT Collect</h2>
-    <p>Because MoneyVault operates primarily offline on your device, we do <strong>not</strong> collect or store on our servers:</p>
-    <ul>
-      <li>Your name, address, email address, or phone number (no account required).</li>
-      <li>Your bank account details, credit card credentials, or banking logins.</li>
-      <li>Your personal budgets, expenses, transactions, emergency fund targets, or investment portfolios.</li>
-    </ul>
+      <div class="highlight-box">
+        <strong>Offline-First Privacy Architecture:</strong> MoneyVault: Finance & FIRE stores your financial records, vaults, expenses, and transaction logs locally on your device. We do not require account registration, and we do not transmit your personal financial logs to developer servers.
+      </div>
 
-    <h2>3. Information Processed Locally on Your Device</h2>
-    <p>The following information is stored strictly within your device's local storage (e.g., via SQLite / SharedPreferences):</p>
-    <ul>
-      <li><strong>Financial Vaults & Transactions:</strong> Bucket names, amounts, categories, dates, and simulated rates.</li>
-      <li><strong>User Preferences:</strong> Preferred currency symbol (e.g., €, $, £), reminder notification times, and compact view settings.</li>
-      <li><strong>Temporary Passes:</strong> Expiration timestamps for the temporary ad-rewarded Pro Pass.</li>
-      <li><strong>Local Backups:</strong> Manual JSON exports generated solely when you choose to export your data.</li>
-    </ul>
+      <h3>1. Information We Do NOT Collect</h3>
+      <p>Because MoneyVault operates primarily offline on your device, we do not collect or store:</p>
+      <ul>
+        <li>Personal identifiers such as your real name, physical address, or phone number.</li>
+        <li>Bank credentials, bank account numbers, credit card details, or banking logins.</li>
+        <li>Your specific budget entries, savings goals, transactions, or investment portfolio amounts.</li>
+      </ul>
 
-    <h2>4. Third-Party Services and Data Collected for App Functionality</h2>
-    <p>
-      To provide in-app subscriptions, premium feature verification, and optional rewarded video passes, the App integrates trusted third-party SDKs. These third parties may collect certain technical identifiers in accordance with their respective privacy policies:
-    </p>
+      <h3>2. Data Processed Locally on Your Device</h3>
+      <p>The following data remains strictly inside your local device storage:</p>
+      <ul>
+        <li><strong>Vaults & Transactions:</strong> Bucket names, amounts, categories, dates, and simulated return rates.</li>
+        <li><strong>User Preferences:</strong> Selected currency symbol (e.g. €, $, £), reminder notification schedules, and display settings.</li>
+        <li><strong>Temporary Pro Passes:</strong> Local timestamp tracking expiration of ad-rewarded Pro Passes.</li>
+        <li><strong>Backups:</strong> Manual JSON backup files generated solely when you choose to export your data.</li>
+      </ul>
 
-    <h3>A. In-App Purchases & Subscriptions (RevenueCat & Google Play Billing)</h3>
-    <p>
-      We use <strong>RevenueCat</strong> and the <strong>Google Play In-App Billing API</strong> to process and verify purchases for MoneyVault Premium.
-    </p>
-    <ul>
-      <li><strong>Data processed:</strong> Anonymous app user IDs, transaction receipts, active subscription status, purchase dates, and store entitlement IDs.</li>
-      <li><strong>Purpose:</strong> To unlock premium features across sessions and restore previous purchases.</li>
-      <li><strong>Privacy Policy:</strong> <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Privacy Policy</a></li>
-    </ul>
+      <h3>3. Third-Party Services & Technical Data</h3>
+      <p>The App integrates trusted industry-standard SDKs for subscriptions and optional rewarded passes:</p>
+      <ul>
+        <li>
+          <strong>In-App Purchases (RevenueCat & Google Play Billing):</strong> Processes anonymous app user IDs, transaction receipts, active subscription status, and purchase dates to unlock and restore Premium features. 
+          See <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Privacy Policy</a>.
+        </li>
+        <li>
+          <strong>Rewarded Video Ads (Google AdMob):</strong> When you voluntarily watch a video ad to unlock a 2-minute Pro Pass, Google AdMob processes advertising identifiers (GAID), device diagnostics, and ad interaction data to prevent fraud. 
+          See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.
+        </li>
+      </ul>
 
-    <h3>B. Advertising (Google Mobile Ads / AdMob)</h3>
-    <p>
-      The App provides an optional rewarded video feature allowing users to unlock a temporary 2-minute Premium Pass by voluntarily viewing an ad. We use <strong>Google AdMob</strong> for this service.
-    </p>
-    <ul>
-      <li><strong>Data processed:</strong> Device advertising identifiers (Google Advertising ID / GAID), coarse location, device type, operating system version, and ad interaction diagnostics.</li>
-      <li><strong>Purpose:</strong> To serve rewarded advertisements, prevent advertising fraud, and verify reward fulfillment.</li>
-      <li><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy & Terms</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob Data Usage</a>.</li>
-    </ul>
+      <h3>4. Device Permissions</h3>
+      <ul>
+        <li><strong>POST_NOTIFICATIONS:</strong> Used only for optional, locally scheduled expense and weekly review reminders.</li>
+        <li><strong>INTERNET:</strong> Required only for Google Play Billing validation and AdMob video playback.</li>
+      </ul>
 
-    <h2>5. Device Permissions Requested</h2>
-    <p>The App requests minimal permissions strictly necessary for its features:</p>
-    <ul>
-      <li><strong>POST_NOTIFICATIONS:</strong> Used exclusively to deliver optional, user-configured local reminders (e.g., daily expense check-in or weekly wealth review). Notifications are scheduled locally on the device.</li>
-      <li><strong>INTERNET:</strong> Required only for communication with Google Play Billing, RevenueCat subscription verification, and Google AdMob rewarded ads.</li>
-    </ul>
+      <h3>5. Data Deletion</h3>
+      <p>
+        You have complete control: you can clear all financial data at any time through the App's Data Center or by clearing the App's storage in your device settings.
+      </p>
+    </section>
 
-    <h2>6. Data Retention and Deletion</h2>
-    <p>
-      Since all financial logs and vault data are stored locally on your device, you have complete control over your data:
-    </p>
-    <ul>
-      <li>You can delete all data at any time by clearing the App's storage in your device settings or uninstalling the App.</li>
-      <li>You can clear demo or custom transactions directly within the App's Data Center.</li>
-    </ul>
+    <!-- ==================== SECTION 2: TERMS OF SERVICE ==================== -->
+    <section id="terms">
+      <h2>⚖️ Part II: Terms of Service & Disclaimer</h2>
 
-    <h2>7. Children's Privacy (COPPA Compliance)</h2>
-    <p>
-      The App is intended for general audiences and is not directed at children under the age of 13 (or under 16 in the European Union). We do not knowingly collect personal identifiable information from children.
-    </p>
+      <div class="alert-box">
+        <strong>Important Financial & Legal Disclaimer:</strong> MoneyVault: Finance & FIRE is an independent, self-directed simulation and budgeting tool provided on an "AS IS" basis. It does not provide certified financial, investment, or tax advice.
+      </div>
 
-    <h2>8. Security</h2>
-    <p>
-      We value the security of your data. Local application data is protected by the standard security sandbox of the Android / iOS operating systems. We recommend protecting your device with a secure passcode or biometric lock.
-    </p>
+      <h3>1. "AS IS" and "AS AVAILABLE" License</h3>
+      <p>
+        MoneyVault: Finance & FIRE is provided strictly on an <strong>"AS IS"</strong> and <strong>"AS AVAILABLE"</strong> basis, without warranties of any kind, whether express, implied, statutory, or otherwise. To the maximum extent permitted by applicable law, the developer disclaims all warranties, including but not limited to merchantability, fitness for a particular purpose, non-infringement, or uninterrupted, bug-free operation.
+      </p>
 
-    <h2>9. Changes to This Privacy Policy</h2>
-    <p>
-      We may update our Privacy Policy periodically. Any updates will be posted on this page with an updated "Last Updated" date. We encourage you to review this page periodically for any changes.
-    </p>
+      <h3>2. No Financial, Investment, or Legal Advice</h3>
+      <p>
+        The calculations, compound interest models, loan amortization schedules, and FIRE (Financial Independence, Retire Early) projections generated by MoneyVault are for <strong>educational and informational simulation purposes only</strong>.
+      </p>
+      <ul>
+        <li>The App does not guarantee future financial returns or investment outcomes.</li>
+        <li>Past performance or mathematical models do not guarantee future wealth.</li>
+        <li>You are solely responsible for verifying any figures before making financial commitments. Consult a qualified professional for certified financial advice.</li>
+      </ul>
 
-    <h2>10. Contact Us</h2>
-    <p>
-      If you have any questions or feedback regarding this Privacy Policy or the practices of MoneyVault: Finance & FIRE, please contact us at:
-    </p>
-    <p>
-      <strong>Developer Contact:</strong> <a href="mailto:support@compoundly.com">support@compoundly.com</a> (or update to your preferred support email)
-    </p>
+      <h3>3. Customer Support on a Best-Effort Basis (Boa Fé)</h3>
+      <p>
+        Customer support is provided on a <strong>reasonable, voluntary best-effort basis ("boa fé")</strong>. 
+      </p>
+      <ul>
+        <li>There are no guaranteed response times, formal service level agreements (SLAs), or obligations to implement requested features.</li>
+        <li>We strive to assist users promptly with technical and billing inquiries in good faith.</li>
+      </ul>
+
+      <h3>4. In-App Purchases, Subscriptions & Refunds</h3>
+      <ul>
+        <li>
+          <strong>Billing:</strong> Payments for MoneyVault Premium are billed through Google Play In-App Billing in accordance with Google Play's terms.
+        </li>
+        <li>
+          <strong>Cancellation:</strong> Subscriptions automatically renew unless cancelled by you in your Google Play Store Account Settings prior to the renewal date.
+        </li>
+        <li>
+          <strong>Refunds:</strong> Refund requests are governed by Google Play's standard refund policies. Within 48 hours of purchase, refunds can generally be requested directly through Google Play.
+        </li>
+      </ul>
+
+      <h3>5. Limitation of Liability</h3>
+      <p>
+        To the fullest extent permitted by applicable law, in no event shall the developer be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data loss, device malfunction, or personal financial decisions arising from the use of or inability to use the App.
+      </p>
+    </section>
+
+    <!-- ==================== SECTION 3: CONTACT ==================== -->
+    <section id="support">
+      <h2>📬 Part III: Support & Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy, your subscription, or the Terms of Service, please contact us:
+      </p>
+      <p>
+        <strong>Email Support:</strong> <a href="mailto:compoundlysupport@gmail.com">compoundlysupport@gmail.com</a>
+      </p>
+      <p style="color: var(--text-muted); font-size: 13px;">
+        We aim to respond to genuine inquiries within standard developer response windows (typically 1–3 business days).
+      </p>
+    </section>
 
     <footer>
       &copy; 2026 MoneyVault: Finance & FIRE. All rights reserved.
