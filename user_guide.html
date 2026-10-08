@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Guide & Manual - MoneyVault: Finance & FIRE</title>
+  <style>
+    :root {
+      --bg: #0F172A;
+      --card-bg: #1E293B;
+      --text: #F1F5F9;
+      --text-muted: #94A3B8;
+      --primary: #10B981;
+      --accent: #38BDF8;
+      --amber: #F59E0B;
+      --border: #334155;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 36px 32px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--primary);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+    h1 {
+      font-size: 28px;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+    .nav-bar {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 28px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .nav-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      font-size: 20px;
+      color: #FFFFFF;
+      margin: 32px 0 12px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      padding-bottom: 8px;
+    }
+    h3 {
+      font-size: 16px;
+      color: var(--accent);
+      margin: 20px 0 8px 0;
+    }
+    p {
+      color: #CBD5E1;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+    ul, ol {
+      margin-left: 20px;
+      margin-bottom: 16px;
+      color: #CBD5E1;
+      font-size: 14px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 24px 0;
+      font-size: 13px;
+    }
+    th, td {
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      text-align: left;
+    }
+    th {
+      background: rgba(255,255,255,0.05);
+      color: #FFFFFF;
+      font-weight: 600;
+    }
+    .card {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      margin: 14px 0;
+    }
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Official Documentation</div>
+    <h1>MoneyVault: Finance & FIRE — User Manual</h1>
+    <div class="subtitle">Complete reference guide for personal wealth tracking, compound simulations, and vaults.</div>
+
+    <div class="nav-bar">
+      <a class="nav-link" href="index.html">← Legal & Privacy Center</a>
+      <a class="nav-link" href="https://github.com/compoundlysupport/MoneyVault-Privacy" target="_blank">GitHub Repository ↗</a>
+    </div>
+
+    <h2>🏛️ 1. Philosophy & Architecture</h2>
+    <p>MoneyVault is built upon an <strong>offline-first architecture</strong>. Your data is your property: no cloud servers require your financial records, no third-party tracking scripts log your income, and no bank credentials are ever requested.</p>
+
+    <h2>🗄️ 2. Vault Management</h2>
+    <div class="card">
+      <p><strong>Vault Categories:</strong></p>
+      <ul>
+        <li><strong>Piggy Bank:</strong> Goals with target amounts and milestone progress bars.</li>
+        <li><strong>Emergency Fund:</strong> Calculates monthly burn rate and runway months covered.</li>
+        <li><strong>Investment:</strong> Simulates compound growth, dividend projections, and capital goals.</li>
+        <li><strong>Expense:</strong> Fastfill-enabled accounts for seamless one-tap daily spending.</li>
+      </ul>
+      <p><strong>Custom Styling:</strong> Personalize each vault with custom icons and colors. The progress bar automatically synchronizes with the vault's icon color.</p>
+    </div>
+
+    <h2>🧮 3. Financial Calculators Suite</h2>
+    <ul>
+      <li><strong>Compound Growth & FIRE:</strong> Project wealth over horizons up to 50 years, compute your FIRE number, and analyze compound vs deposits.</li>
+      <li><strong>Dividend Growth & Yield:</strong> DRIP reinvestment modeling, gross/net yield, and taxation analysis.</li>
+      <li><strong>Loan Amortization:</strong> Transparent schedule separating regular principal, extra amortizations, interest, and remaining balance.</li>
+      <li><strong>Discount Calculator (100% Free):</strong> Single and parallel discount comparisons with sales tax.</li>
+    </ul>
+
+    <h2>☁️ 4. Data Center & Cloud Backup</h2>
+    <p>You can create 1-tap backups to Google Drive, iCloud, or local storage anytime through the <strong>Data Center</strong>. Data is exported as clean, encrypted JSON files that can be restored on any device without loss.</p>
+
+    <h2>👑 5. Plans & Restoring Purchases</h2>
+    <p>Standard users can create 1 vault per category, preview all tools, and unlock 1-minute Pro Passes via rewarded videos (up to 5 per 24h). Premium permanently unlocks unlimited vaults, full interactive calculators, and portfolio weights.</p>
+    <p>To restore your purchases on a new device, tap <strong>Restore Purchases</strong> in the Plan screen.</p>
+
+    <div class="footer">
+      <p>© 2026 MoneyVault. All rights reserved. • Support: support@compoundly.com</p>
+    </div>
+  </div>
+</body>
+</html>
+
