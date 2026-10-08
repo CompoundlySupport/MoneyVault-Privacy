@@ -162,6 +162,25 @@ Open the **Data Center** from the Cloud icon in the top header:
 
 ---
 
+## 🌐 Multi-Language & Currency Localization
+
+MoneyVault is designed for a global audience with native multilingual support and flexible currency formatting:
+
+* **Supported Languages:**
+  * **English**
+  * **Português (International)**
+  * **Español**
+  * **Français**
+  * **Italiano**
+  * **Deutsch**
+* **Language Switching:**
+  * By default, MoneyVault matches your device system language automatically.
+  * To select a different language manually, open the **More Options** (`⋮`) menu from the top bar on the Dashboard or Vaults screen and tap **Language** (or use the translate button in the Recurring and Start screens).
+* **Currency Selection:**
+  * Tap the currency icon or choose **Currency** in the options menu to format all cash values in EUR (`€`), USD (`$`), GBP (`£`), BRL (`R$`), JPY (`¥`), CHF (`CHF`), and more.
+
+---
+
 ## 👑 Membership Plans (Standard vs Premium)
 
 MoneyVault offers fair, transparent pricing with no hidden lock-ins:
