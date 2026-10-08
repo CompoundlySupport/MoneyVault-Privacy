@@ -10,16 +10,17 @@ Welcome to **MoneyVault: Finance & FIRE**, the modern, offline-first personal we
 2. [Quick Start Guide](#-quick-start-guide)
 3. [Understanding Vault Types](#-understanding-vault-types)
 4. [Cash Flow & Transactions](#-cash-flow--transactions)
-5. [Portfolio Allocation & Weights](#-portfolio-allocation--weights)
-6. [Financial Calculators Suite](#-financial-calculators-suite)
+5. [Recurring Transactions & Smart Alerts](#-recurring-transactions--smart-alerts)
+6. [Portfolio Allocation & Weights](#-portfolio-allocation--weights)
+7. [Financial Calculators Suite](#-financial-calculators-suite)
    - [Compound Growth & FIRE Calculator](#1-compound-growth--fire-calculator)
    - [Dividend Growth & Yield Calculator](#2-dividend-growth--yield-calculator)
    - [Loan Amortization & Early Payoff](#3-loan-amortization--early-payoff)
    - [Smart Discount Calculator](#4-smart-discount-calculator)
-7. [Data Center, Cloud Backup & Privacy](#-data-center-cloud-backup--privacy)
-8. [Membership Plans (Standard vs Premium)](#-membership-plans-standard-vs-premium)
-9. [Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
-10. [Support & Contact](#-support--contact)
+8. [Data Center, Cloud Backup & Privacy](#-data-center-cloud-backup--privacy)
+9. [Membership Plans (Standard vs Premium)](#-membership-plans-standard-vs-premium)
+10. [Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
+11. [Support & Contact](#-support--contact)
 
 ---
 
@@ -76,6 +77,32 @@ The **Cash Flow** tab provides a bird's-eye view of your liquidity and transacti
 * **Fastfill (One-Tap Expense Logging):**
   * In expense vaults, configure a **Fastfill Step** (e.g., `€5`, `€10`, `€25`).
   * Tap the Fastfill button on the vault card to instantly log frequent routine purchases without typing.
+
+
+---
+
+## 🔁 Recurring Transactions & Smart Alerts
+
+Automate and safeguard your routine cash flow with precision device notifications:
+
+* **Setting Up Recurring Rules:**
+  * **Title:** e.g., Apartment Rent, Gym Membership, Monthly Salary, Internet Fiber, ETF Investment.
+  * **Vault & Type:** Direct the transaction to any dedicated vault (Expenses, Income, Investments, Emergency Fund, Piggy Bank).
+  * **Day of Month:** Select the target day (1 to 31). Month-end dates automatically adjust for shorter months (e.g., February 28/29 or April 30).
+  * **Interval & Frequency:** Full calendar recurrence—schedule occurrences every $x$ Days, $x$ Weeks, $x$ Months, or $x$ Years (e.g., *Bi-weekly paychecks*, *Quarterly insurance*, *Annual property taxes*).
+  * **Notification Time:** Set the exact hour and minute for the alert.
+  * **Amount:** Pre-configured currency value.
+* **Smart Device Notifications:**
+  * At the scheduled date and time, a local push notification appears on your device.
+  * Tapping the alert opens MoneyVault straight to the **Pending Confirmations** tab.
+* **Review & Confirm Flow:**
+  * **Confirm & Log:** Inserts the transaction directly into the destination vault, updates live balances, adjusts total net worth, and automatically advances the rule to its next scheduled date.
+  * **Skip:** Bypasses this occurrence without altering vault balances, preserving historical data while scheduling the subsequent cycle.
+* **Scheduled Rules Hub:**
+  * **Active Switch:** Toggle alerts ON or OFF anytime without losing rule parameters.
+  * **Instant Trigger (Test):** Fire an immediate test occurrence to log transactions ahead of time.
+  * **Compact vs. Expanded Views:** View rules in full detailed cards or switch to a high-density compact list view.
+  * **Editing & Deletion:** Modify rule parameters or remove outdated schedules at any time.
 
 ---
 
@@ -142,6 +169,8 @@ MoneyVault offers fair, transparent pricing with no hidden lock-ins:
 | Feature | Standard Plan (Free) | MoneyVault Premium |
 | :--- | :---: | :---: |
 | **Vault Creation** | 1 Vault per Category | **Unlimited Vaults** |
+| **Recurring Cash Flows & Alerts** | Up to 3 Active Rules | **Unlimited Active Rules** |
+| **Compact & Expanded View Modes** | Standard Expanded View | **Full Compact & Expanded Views** |
 | **Discount Calculator** | ✅ Full Access | ✅ Full Access |
 | **Financial Calculators Suite** | Read-Only Preview | **Full Interactive Access** |
 | **Portfolio Allocation & Weights** | Basic Summary | **Full Visual Analytics** |
