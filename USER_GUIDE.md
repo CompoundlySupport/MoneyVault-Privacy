@@ -1,6 +1,6 @@
-# 📘 MoneyVault: Finance & FIRE — Official User Guide & Manual
+# 📘 MoneyVaults: Finance & FIRE — Official User Guide & Manual
 
-Welcome to **MoneyVault: Finance & FIRE**, the modern, offline-first personal wealth management and financial freedom operating system.
+Welcome to **MoneyVaults: Finance & FIRE**, the modern, offline-first personal wealth management and financial freedom operating system.
 
 ---
 
@@ -26,9 +26,9 @@ Welcome to **MoneyVault: Finance & FIRE**, the modern, offline-first personal we
 
 ## 🏛️ Philosophy & Architecture
 
-MoneyVault is built upon three non-negotiable principles:
+MoneyVaults is built upon three non-negotiable principles:
 
-* **100% Offline-First Privacy:** Your finances are your business. MoneyVault does not require an account, does not connect to external financial servers, and never sells your data. All records remain encrypted locally on your device.
+* **100% Offline-First Privacy:** Your finances are your business. MoneyVaults does not require an account, does not connect to external financial servers, and never sells your data. All records remain encrypted locally on your device.
 * **Mathematical Precision:** No ambiguous projections. Every compound growth curve, loan amortization schedule, and portfolio weighting formula is built on transparent, textbook financial math.
 * **Frictionless Daily Tracking:** With customizable **Fastfill** buttons, logging a daily expense takes less than two seconds.
 
@@ -49,7 +49,7 @@ MoneyVault is built upon three non-negotiable principles:
 
 ## 🗄️ Understanding Vault Types
 
-MoneyVault organizes your wealth into dedicated, purpose-built vaults:
+MoneyVaults organizes your wealth into dedicated, purpose-built vaults:
 
 | Vault Category | Purpose | Key Features |
 | :--- | :--- | :--- |
@@ -94,7 +94,7 @@ Automate and safeguard your routine cash flow with precision device notification
   * **Amount:** Pre-configured currency value.
 * **Smart Device Notifications:**
   * At the scheduled date and time, a local push notification appears on your device.
-  * Tapping the alert opens MoneyVault straight to the **Pending Confirmations** tab.
+  * Tapping the alert opens MoneyVaults straight to the **Pending Confirmations** tab.
 * **Review & Confirm Flow:**
   * **Confirm & Log:** Inserts the transaction directly into the destination vault, updates live balances, adjusts total net worth, and automatically advances the rule to its next scheduled date.
   * **Skip:** Bypasses this occurrence without altering vault balances, preserving historical data while scheduling the subsequent cycle.
@@ -164,7 +164,7 @@ Open the **Data Center** from the Cloud icon in the top header:
 
 ## 🌐 Multi-Language & Currency Localization
 
-MoneyVault is designed for a global audience with native multilingual support and flexible currency formatting:
+MoneyVaults is designed for a global audience with native multilingual support and flexible currency formatting:
 
 * **Supported Languages:**
   * **English**
@@ -174,7 +174,7 @@ MoneyVault is designed for a global audience with native multilingual support an
   * **Italiano**
   * **Deutsch**
 * **Language Switching:**
-  * By default, MoneyVault matches your device system language automatically.
+  * By default, MoneyVaults matches your device system language automatically.
   * To select a different language manually, open the **More Options** (`⋮`) menu from the top bar on the Dashboard or Vaults screen and tap **Language** (or use the translate button in the Recurring and Start screens).
 * **Currency Selection:**
   * Tap the currency icon or choose **Currency** in the options menu to format all cash values in EUR (`€`), USD (`$`), GBP (`£`), BRL (`R$`), JPY (`¥`), CHF (`CHF`), and more.
@@ -183,9 +183,9 @@ MoneyVault is designed for a global audience with native multilingual support an
 
 ## 👑 Membership Plans (Standard vs Premium)
 
-MoneyVault offers fair, transparent pricing with no hidden lock-ins:
+MoneyVaults offers fair, transparent pricing with no hidden lock-ins:
 
-| Feature | Standard Plan (Free) | MoneyVault Premium |
+| Feature | Standard Plan (Free) | MoneyVaults Premium |
 | :--- | :---: | :---: |
 | **Vault Creation** | 1 Vault per Category | **Unlimited Vaults** |
 | **Recurring Cash Flows & Alerts** | Up to 3 Active Rules | **Unlimited Active Rules** |
@@ -208,25 +208,25 @@ Standard users can watch an optional rewarded video ad to unlock a **1-Minute Pr
 1. On your old phone, open **Data Center** (cloud icon at top).
 2. Tap **Backup to Cloud** or **Copy Backup to Clipboard**.
 3. Send the file to your new phone (or save to Google Drive / iCloud).
-4. On your new phone, open MoneyVault, open the **Data Center**, and tap **Restore from JSON**.
+4. On your new phone, open MoneyVaults, open the **Data Center**, and tap **Restore from JSON**.
 
 #### How do I restore my Premium purchase?
 1. Go to the **Plan** tab (or open the Premium paywall).
 2. Tap **Restore Purchases** at the top or bottom of the screen.
 3. Your Google Play subscription / lifetime license will be verified and reactivated instantly.
 
-#### Does MoneyVault connect to my bank account?
-**No.** MoneyVault is intentionally an offline-first app. It never asks for banking credentials or online access tokens. You retain 100% control over all logged data.
+#### Does MoneyVaults connect to my bank account?
+**No.** MoneyVaults is intentionally an offline-first app. It never asks for banking credentials or online access tokens. You retain 100% control over all logged data.
 
 ---
 
 ## 📬 Support & Contact
 
-* **Documentation & Privacy Policy:** [MoneyVault Privacy & Legal Center](https://compoundlysupport.github.io/MoneyVault-Privacy/)
+* **Documentation & Privacy Policy:** [MoneyVaults Privacy & Legal Center](https://compoundlysupport.github.io/MoneyVault-Privacy/)
 * **Support Email:** `support@compoundly.com`
 * **GitHub Repository:** [compoundlysupport/MoneyVault-Privacy](https://github.com/compoundlysupport/MoneyVault-Privacy)
 
 ---
 
-*MoneyVault: Smart Vaults • Compound Growth • Financial Freedom*
+*MoneyVaults: Smart Vaults • Compound Growth • Financial Freedom*
 

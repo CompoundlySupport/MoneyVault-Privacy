@@ -1,11 +1,11 @@
-# 🛡️ MoneyVault: Finance & FIRE
+# 🛡️ MoneyVaults: Finance & FIRE
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter)](https://flutter.dev)
 [![Platform](https://img.shields.io/badge/Platform-Android-green?logo=android)](https://play.google.com)
 [![License](https://img.shields.io/badge/License-Proprietary-blue.svg)](LICENSE)
 [![User Guide](https://img.shields.io/badge/Documentation-User%20Guide-teal)](USER_GUIDE.md)
 
-**MoneyVault: Finance & FIRE** is a modern, privacy-focused, offline-first personal wealth and financial freedom application. Designed to organize your capital into dedicated smart vaults, track cash flow with zero friction, automate recurring reminders, and project exponential compound interest growth toward early retirement (FIRE).
+**MoneyVaults: Finance & FIRE** is a modern, privacy-focused, offline-first personal wealth and financial freedom application. Designed to organize your capital into dedicated smart vaults, track cash flow with zero friction, automate recurring reminders, and project exponential compound interest growth toward early retirement (FIRE).
 
 ---
 
@@ -37,7 +37,7 @@
 
 For a complete walkthrough of all features, math formulas, and membership plan details, read the official guide:
 
-👉 **[Read the MoneyVault User Manual & Guide (USER_GUIDE.md)](USER_GUIDE.md)**
+👉 **[Read the MoneyVaults User Manual & Guide (USER_GUIDE.md)](USER_GUIDE.md)**
 
 ---
 
@@ -74,5 +74,5 @@ flutter build appbundle --release
 
 ## 📄 License & Privacy
 
-* **Privacy Policy:** [MoneyVault Privacy Notice](https://compoundlysupport.github.io/MoneyVault-Privacy/)
+* **Privacy Policy:** [MoneyVaults Privacy Notice](https://compoundlysupport.github.io/MoneyVault-Privacy/)
 * **Support Contact:** `support@compoundly.com`
