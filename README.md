@@ -51,8 +51,8 @@ For a complete walkthrough of all features, math formulas, and membership plan d
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/compoundlysupport/MoneyVault-Privacy.git
-cd MoneyVault-Privacy
+git clone https://github.com/compoundlysupport/MoneyVaults-Privacy.git
+cd MoneyVaults-Privacy
 
 # Install dependencies
 flutter pub get
