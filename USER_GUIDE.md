@@ -1,6 +1,6 @@
-# 📘 MoneyVaults: Finance & FIRE — Official User Guide & Manual
+# 📘 MoneyVaults: Finances & FIRE — Official User Guide & Manual
 
-Welcome to **MoneyVaults: Finance & FIRE**, the modern, offline-first personal wealth management and financial freedom operating system.
+Welcome to **MoneyVaults: Finances & FIRE**, the modern, offline-first personal wealth management and financial freedom operating system.
 
 ---
 
@@ -222,7 +222,7 @@ Standard users can watch an optional rewarded video ad to unlock a **1-Minute Pr
 
 ## 📬 Support & Contact
 
-* **Documentation & Privacy Policy:** [MoneyVaults Privacy & Legal Center](https://compoundlysupport.github.io/MoneyVault-Privacy/)
+* **Documentation & Privacy Policy:** [MoneyVaults Privacy & Legal Center](https://compoundlysupport.github.io/MoneyVaults-Privacy/)
 * **Support Email:** `support@compoundly.com`
 * **GitHub Repository:** [compoundlysupport/MoneyVaults-Privacy](https://github.com/compoundlysupport/MoneyVaults-Privacy)
 
